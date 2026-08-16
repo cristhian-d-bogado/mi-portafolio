@@ -910,12 +910,24 @@ position: relative;
     .contacto-opciones {
         grid-template-columns: 1fr;
         width: 100%;
+        min-width: 0;
     }
 
     .contacto-card {
-        width: 100%;
+        width: auto;
+        max-width: 100%;
         box-sizing: border-box;
         padding: 20px;
+        min-width: 0;
+    }
+
+    .contacto-card div {
+        min-width: 0;
+    }
+
+    .contacto-card p {
+        overflow-wrap: anywhere;
+        word-break: break-word;
     }
 }
 
