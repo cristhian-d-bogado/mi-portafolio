@@ -897,11 +897,10 @@ position: relative;
 
 
 /* ================= CELULAR ================= */
-
 @media (max-width: 650px) {
 
     .contacto {
-        padding: 70px 7%;
+        padding: 70px 20px;
     }
 
     .contacto-descripcion {
@@ -910,8 +909,16 @@ position: relative;
 
     .contacto-opciones {
         grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .contacto-card {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
     }
 }
+
 
 
 
