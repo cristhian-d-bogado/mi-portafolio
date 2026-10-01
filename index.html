@@ -1,23 +1,398 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Criliz Digital — Sitio trasladado</title>
+    <title>Criliz Digital | Soluciones digitales para negocios</title>
 
-  <link rel="canonical" href="https://crilizdigital.com/">
-  <meta http-equiv="refresh" content="0; url=https://crilizdigital.com/">
-  <meta name="robots" content="index, follow">
+    <meta name="description"
+          content="Criliz Digital crea sitios web y soluciones digitales para negocios: desarrollo web, herramientas para procesos y optimización digital.">
+    <meta name="keywords"
+          content="Criliz Digital, desarrollo web, soluciones digitales para negocios, páginas web, sistemas web, optimización digital">
+    <meta name="author" content="Criliz Digital">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#0D132A">
 
-  <script>
-    window.location.replace("https://crilizdigital.com/");
-  </script>
+    <script>
+      if (
+        window.location.hostname === 'cristhian-d-bogado.github.io' &&
+        window.location.pathname.startsWith('/mi-portafolio')
+      ) {
+        window.location.replace('https://crilizdigital.com' + window.location.hash);
+      }
+    </script>
+
+    <link rel="canonical" href="https://crilizdigital.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Criliz Digital | Soluciones digitales para negocios">
+    <meta property="og:description"
+          content="Creamos sitios web y soluciones digitales modernas para ayudar a los negocios a mejorar su presencia, procesos y experiencia de cliente.">
+    <meta property="og:url" content="https://crilizdigital.com/">
+    <meta property="og:site_name" content="Criliz Digital">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:image" content="https://crilizdigital.com/imagenes/portada-criliz-digital.png">
+    <meta property="og:image:secure_url" content="https://crilizdigital.com/imagenes/portada-criliz-digital.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Criliz Digital - Soluciones digitales para negocios">
+
+    <!-- X / Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Criliz Digital | Soluciones digitales para negocios">
+    <meta name="twitter:description"
+          content="Desarrollo web y soluciones digitales pensadas para las necesidades reales de cada negocio.">
+    <meta name="twitter:image" content="https://crilizdigital.com/imagenes/portada-criliz-digital.png">
+
+    <!-- Datos estructurados -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Criliz Digital",
+      "alternateName": "CRILIZ DIGITAL",
+      "url": "https://crilizdigital.com/",
+      "email": "mailto:crilizdigital@gmail.com",
+      "description": "Soluciones digitales para negocios: desarrollo web, herramientas digitales y optimización de procesos.",
+      "logo": "https://crilizdigital.com/imagenes/criliz/isotipo-criliz-oscuro.png",
+      "founder": {
+        "@type": "Person",
+        "name": "Cristhian Bogado",
+        "jobTitle": "Fundador y desarrollador"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://crilizdigital.com/",
+      "name": "Criliz Digital",
+      "alternateName": "CRILIZ DIGITAL",
+      "description": "Soluciones digitales para negocios."
+    }
+    </script>
+
+    <link rel="icon" type="image/png" href="imagenes/criliz/isotipo-criliz-oscuro.png">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <p>
-    Criliz Digital se ha trasladado a
-    <a href="https://crilizdigital.com/">https://crilizdigital.com/</a>.
-  </p>
+
+    <header class="hero">
+
+        <nav class="navbar">
+
+            <a href="#inicio" class="marca-navbar" aria-label="Criliz Digital - Inicio">
+                <img src="imagenes/criliz/logo-criliz-horizontal-transparente.svg" alt="Criliz Digital" loading="eager">
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <ul class="menu" id="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+        </nav>
+
+        <section id="inicio" class="hero-contenido hero-criliz">
+
+            <div class="hero-texto-criliz">
+                <p class="saludo">CRILIZ DIGITAL</p>
+
+                <h1>
+                    Criliz Digital: soluciones digitales que ayudan a
+                    <span>crecer tu negocio</span>
+                </h1>
+
+                <p class="descripcion">
+                    Creamos sitios web y soluciones digitales modernas para negocios
+                    que quieren mejorar su presencia, simplificar procesos y ofrecer
+                    una mejor experiencia a sus clientes.
+                </p>
+
+                <div class="hero-botones">
+                    <a href="#proyectos" class="btn-principal">
+                        Ver nuestros proyectos
+                    </a>
+
+                    <a href="#contacto" class="btn-secundario">
+                        Hablemos de tu negocio
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-marca-visual" aria-hidden="true">
+                <div class="hero-marca-halo"></div>
+                <img src="imagenes/criliz/isotipo-criliz-transparente.svg" alt="" loading="eager">
+                <p>Soluciones digitales para negocios</p>
+            </div>
+
+        </section>
+
+    </header>
+
+<section id="sobre-mi" class="sobre-mi aparecer-scroll">
+
+    <div class="sobre-mi-contenido">
+
+        <div class="sobre-mi-texto">
+
+            <p class="seccion-etiqueta">
+                Sobre Criliz Digital
+            </p>
+
+            <h2>
+                Tecnología y diseño al servicio de tu negocio
+            </h2>
+
+            <p>
+                Criliz Digital nace para ayudar a negocios y profesionales a construir
+                una presencia digital moderna, clara y preparada para crecer.
+            </p>
+
+            <p>
+                Creamos sitios web y soluciones digitales pensadas para resolver
+                necesidades reales, mejorar la experiencia de los clientes y apoyar
+                los objetivos de cada negocio.
+            </p>
+
+            <div class="datos-sobre-mi">
+
+                <div class="dato">
+                    <strong>Qué hacemos</strong>
+                    <span>Sitios web y soluciones digitales adaptadas a cada negocio.</span>
+                </div>
+
+                <div class="dato">
+                    <strong>Cómo trabajamos</strong>
+                    <span>Diseño, funcionalidad y una experiencia simple para el cliente.</span>
+                </div>
+
+                <div class="dato">
+                    <strong>Quién está detrás</strong>
+                    <span>Cristhian Bogado · Fundador y desarrollador de Criliz Digital.</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="habilidades" class="habilidades aparecer-scroll">
+
+    <div class="habilidades-contenido">
+
+        <p class="seccion-etiqueta">
+            Habilidades
+        </p>
+
+        <h2>
+            Tecnologías que utilizo
+        </h2>
+
+        <p class="habilidades-descripcion">
+            Estas son algunas de las tecnologías con las que actualmente
+            desarrollo mis proyectos web.
+        </p>
+
+        <div class="habilidades-grid">
+
+            <div class="habilidad-card">
+                <h3>HTML</h3>
+                <p>
+                    Estructura semántica y organización de páginas web.
+                </p>
+            </div>
+
+            <div class="habilidad-card">
+                <h3>CSS</h3>
+                <p>
+                    Diseño responsive, animaciones y estilos modernos.
+                </p>
+            </div>
+
+            <div class="habilidad-card">
+                <h3>JavaScript</h3>
+                <p>
+                    Interactividad, lógica, eventos y manipulación del DOM.
+                </p>
+            </div>
+
+            <div class="habilidad-card">
+                <h3>Responsive Design</h3>
+                <p>
+                    Adaptación para computadora, tablet y celular.
+                </p>
+            </div>
+
+            <div class="habilidad-card">
+                <h3>LocalStorage</h3>
+                <p>
+                    Persistencia de datos en aplicaciones web del navegador.
+                </p>
+            </div>
+
+            <div class="habilidad-card">
+                <h3>Python</h3>
+                <p>
+                    Conocimientos iniciales para futuros proyectos con backend.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="servicios" class="servicios-criliz">
+  <div class="contenedor-servicios">
+    <p class="etiqueta-seccion">LO QUE HACEMOS</p>
+    <h2>Servicios</h2>
+    <p class="intro-servicios">
+      Creamos soluciones digitales pensadas para las necesidades reales de cada negocio.
+    </p>
+
+    <div class="grid-servicios">
+      <article class="tarjeta-servicio">
+        <div class="icono-servicio">🌐</div>
+        <h3>Desarrollo Web</h3>
+        <p>
+          Sitios web modernos, rápidos y adaptados a celulares, desarrollados según
+          los objetivos y necesidades de cada negocio.
+        </p>
+      </article>
+
+      <article class="tarjeta-servicio">
+        <div class="icono-servicio">⚙️</div>
+        <h3>Soluciones para Negocios</h3>
+        <p>
+          Catálogos, sistemas de pedidos, paneles administrativos y herramientas
+          digitales que ayudan a simplificar procesos.
+        </p>
+      </article>
+
+      <article class="tarjeta-servicio">
+        <div class="icono-servicio">📈</div>
+        <h3>Optimización Digital</h3>
+        <p>
+          Analizamos cómo funciona tu negocio para detectar oportunidades donde la
+          tecnología pueda mejorar la experiencia del cliente y apoyar el crecimiento.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<section id="proyectos" class="proyectos-criliz">
+  <div class="contenedor-proyectos">
+    <p class="etiqueta-seccion">PROYECTOS</p>
+    <h2>Soluciones que ya construimos</h2>
+    <p class="intro-proyectos">
+      Cada proyecto parte de una necesidad concreta y se transforma en una solución digital funcional,
+      pensada para mejorar la experiencia del usuario y apoyar los objetivos del negocio.
+    </p>
+
+    <article class="caso-proyecto">
+      <div class="proyecto-imagen">
+        <img src="imagenes/infinity-hub.png" alt="Proyecto Infinity Hub" loading="lazy">
+      </div>
+
+      <div class="proyecto-contenido">
+        <span class="proyecto-tipo">ECOMMERCE · DESARROLLO WEB</span>
+        <h3>Infinity Hub</h3>
+
+        <div class="bloque-proyecto">
+          <h4>El reto</h4>
+          <p>
+            Crear una tienda digital moderna donde los usuarios pudieran explorar productos,
+            iniciar sesión, comprar y consultar sus pedidos desde distintos dispositivos.
+          </p>
+        </div>
+
+        <div class="bloque-proyecto">
+          <h4>La solución</h4>
+          <p>
+            Se desarrolló una experiencia web responsive con catálogo de productos, carrito,
+            autenticación de usuarios, gestión de pedidos y panel administrativo.
+          </p>
+        </div>
+
+        <div class="funciones-proyecto">
+          <span>Catálogo responsive</span>
+          <span>Carrito de compras</span>
+          <span>Inicio de sesión</span>
+          <span>Gestión de pedidos</span>
+          <span>Panel administrativo</span>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+<section id="contacto" class="contacto-criliz">
+  <div class="contenedor-contacto">
+    <div class="contacto-copy">
+      <p class="etiqueta-seccion">HABLEMOS</p>
+      <h2>¿Tienes un negocio que necesita una solución digital?</h2>
+      <p>
+        Cuéntanos qué quieres mejorar. Analizamos tu situación y vemos qué solución digital
+        puede ayudarte a avanzar.
+      </p>
+    </div>
+
+    <div class="acciones-contacto">
+      <a class="boton-contacto boton-whatsapp"
+         href="https://wa.me/595983157394?text=Hola%20Criliz%20Digital%2C%20me%20gustar%C3%ADa%20conversar%20sobre%20una%20soluci%C3%B3n%20digital%20para%20mi%20negocio."
+         target="_blank" rel="noopener noreferrer" aria-label="Hablar con Criliz Digital por WhatsApp">
+        Hablar por WhatsApp
+      </a>
+
+      <a class="boton-contacto boton-email"
+         href="mailto:crilizdigital@gmail.com?subject=Consulta%20para%20Criliz%20Digital" aria-label="Enviar correo a Criliz Digital">
+        Enviar un correo
+      </a>
+
+      <div class="datos-contacto">
+        <span>Correo empresarial</span>
+        <a href="mailto:crilizdigital@gmail.com">crilizdigital@gmail.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <script src="script.js"></script>
+
+<footer class="footer-criliz">
+  <p>© 2026 <strong>CRILIZ DIGITAL</strong> · Soluciones digitales para negocios</p>
+</footer>
+
 </body>
+
 </html>
